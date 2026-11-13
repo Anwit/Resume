@@ -76,7 +76,7 @@ li{
 #title{
   position: relative;
   left: 0.55in;
-  margin-bottom: 0.3in;
+  margin-bottom: 0.15in;
   line-height: 1.2;
 }
 
@@ -244,7 +244,7 @@ li{
 }
 
 .main-block:not(.concise) .details div{
-  margin: 0.18in 0 0.1in 0; 
+  margin: 0.1in 0 0.06in 0;
 }
 
 .main-block:not(.concise) .blocks:last-child .details div{
@@ -343,11 +343,11 @@ li{
   text-align: right;
 }
 
-#skills{
+#skills, #accolades{
   line-height: 1.5;
 }
 
-#skills ul{
+#skills ul, #accolades ul{
   margin: 0.05in 0 0.15in;
   padding: 0;
 }

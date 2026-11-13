@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <title>Anwit Roy - Sr. Software Development Engineer</title>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
     <link rel="stylesheet" type="text/css" href="style.css" />
@@ -12,37 +13,55 @@
         <h1>Anwit Roy</h1>
         <span class="subtitle">Sr. Software Development Engineer, Amazon</span>
       </header>
-      <p>Software developer with 11 years of experience acting as Sr. SDE in Amazon. Strong technical background of large-scale distributed systems along with state-of-the-art cloud and bigdata technologies. Notable success in designing and developing highly scalable backend service capable of handling millions of TPS. Successfully developed service that crunches hundreds of Terrabytes of data daily and provide sub second latency search experience. Deeply enthusiastic about hiring talent, mentoring engineers and helping business achieve multifold growth.</p>
+      <p>Sr. Software Development Engineer with 14 years in large-scale distributed systems and, most recently, production agentic AI. Technical lead for a 30-engineer organization (3 teams) in Amazon Fulfillment Technology: own architecture and roadmap, build consensus across director-level organizations, and ship. Architect of an LLM-driven financial-assurance platform guarding Amazon's P&amp;L and of the re-architecture of a 15-year-old, high-traffic fulfillment system into AWS microservices.</p>
       <section class="main-block">
         <h2>
-          <i class="fa fa-suitcase"></i> Experiences
+          <i class="fa fa-suitcase"></i> Experience
         </h2>
         <section class="blocks">
           <div class="date">
-            <span>Present</span><span>Aug 2020</span>
+            <span>Present</span><span>Oct 2023</span>
           </div>
           <div class="decorator">
           </div>
           <div class="details">
             <header>
-              <h3>SDE II / SDE III</h3>
-              <span class="place">Content Systems, Amazon</span>
+              <h3>Sr. Software Development Engineer</h3>
+              <span class="place">Amazon (Fulfillment Technology since Jul 2024; Retail Content Systems before)</span>
               <span class="location">Bengaluru</span>
             </header>
             <div>
               <ul>
-                <li>Currently working in Content Systems org in Retail Website which manages marketing content globally. Worked as a lead engineer on a green-field project to automate marketing content.</li>
-                <li>Built a service from scratch that crunches 100TBs of data daily to provide sub second search capability.</li>
-                <li>Operating as Team Lead owning 4 micro-services and leading a team of 6 engineers in implementation of critical path softwares.</li>
-                <li>Conceptualized, designed and re-architected the <b>editorial automation workflow</b></b> of Marketing content for Amazon Retail Website.</li>
-                <li>Developed a marketing expense management tool designed to handle $20 billion annually.</li>
-                <li>Stabilized services during Kinesis Outage in Nov 2020 and AWS worldwide outage in Dec 2021.</li>
-                <li>Working with PMs, SDMs and Principle Engineers in prioritizing strategy for the team and lay product roadmap.</li>
-                <li>Lead design reviews and implementation, milestone breakdown, stakeholder reporting, resource allocation and provide mentorship to engineers.</li>
-                <li>Worked on convergence of two biggest Content Management Systems of Amazon Retail Website(Symphony and MS3) serving millions of global marketers and vendors.</li>
-                <li>Provide oncall support during Peak events across the globe.</li>
+                <li><b>Technical leader for a 30-engineer organization</b> (3 teams under one Sr. Engineering Manager): set the multi-year technical roadmap with product and engineering managers, chair architecture and design reviews, define engineering and operational-excellence standards, and act as final technical escalation during peak and financial-close events.</li>
+                <li><b>Re-architected Amazon's fulfillment-center transshipment process</b>, a 15-year-old monolith carrying all inbound transshipment traffic, into 12 AWS microservices (10 existing, 2 new) owned across three directors' organizations. Architect and consensus-builder across teams; led 6 engineers from design (May 2025) to full production (Mar 2026) through a phased FC-by-FC rollout with no latency or availability regression, <b>high-severity incidents down from ~50 to ~10 per quarter</b>, and clear per-team ownership replacing a single owning team.</li>
+                <li>Lead architect of an <b>agentic financial-assurance platform</b> for accounting, finance, retail and operations customers that detects, investigates and routes defects in inventory financial records before they reach the P&amp;L. In its first 3 months it proactively caught ~10 high-severity anomalies that would otherwise have surfaced at month-end close; its first capability writes <b>$250M in automated journal entries</b> under a confidence-score control. Targets a 2027 company goal of cutting the financial record defect rate from 2.4% to 1% and recovering $150M+ in P&amp;L.</li>
+                <li>Designed the platform as five event-driven services over a persisted, chained event fabric that makes every automated decision SOX-auditable; new use cases onboard through configuration. The investigation layer is a LangGraph graph of reusable sub-agents (log, deployment, code, impact) with fact-first grounding, independent LLM-as-judge review, golden-set evals and shadow validation on Amazon Bedrock AgentCore, under a tiered action-control model (observe, recommend, act with approval, bounded autonomy) that lets agents act on financial systems under SOX.</li>
+                <li>Authored the strategy aligning this platform with Amazon's company-wide agentic skills platform and inventory lakehouse, working directly with Principal Engineers across organizations and setting the SOX, traceability and ownership requirements partner teams build to.</li>
+                <li>Created an <b>LLM-powered log analyzer</b> that joins source-code context with runtime logs (Strands agents, MCP, Python). Integrated into the ticketing system so every new ticket is triaged by the agent before an engineer sees it; <b>reduced MTTD and MTTR by 40%</b>, and improves continuously from engineer feedback.</li>
+                <li>Built an agentic on-call report generator and a service-health monitor that flags pipeline staleness, outdated software and misconfigured alarms against historical baselines, removing recurring manual audit work from on-call.</li>
+                <li>Hire and grow talent: mentored <b>11 engineers to promotion</b> (3 to senior engineer, 8 to mid-level); conducted <b>200+ interviews</b> across engineering, engineering-management and TPM job families.</li>
               </ul>
-              </div>
+            </div>
+          </div>
+        </section>
+        <section class="blocks">
+          <div class="date">
+            <span>Sep 2023</span><span>Aug 2020</span>
+          </div>
+          <div class="decorator">
+          </div>
+          <div class="details">
+            <header>
+              <h3>Software Development Engineer II</h3>
+              <span class="place">Content Systems, Amazon Retail</span>
+              <span class="location">Bengaluru</span>
+            </header>
+            <div>
+              <ul>
+                <li>Team lead for 6 engineers and 4 micro-services; built from scratch a marketing-content automation service processing tens of TBs of data daily with sub-second search, and re-architected the <b>editorial automation workflow</b> for the Amazon retail website.</li>
+                <li>Developed a marketing expense management tool handling $20B annually; drove convergence of the two largest content management systems of the retail website, serving thousands of marketers and vendors.</li>
+              </ul>
+            </div>
           </div>
         </section>
         <section class="blocks">
@@ -53,41 +72,33 @@
           </div>
           <div class="details">
             <header>
-              <h3>SDE II</h3>
-              <span class="place">Shopping Foundation, Amazon</span>
+              <h3>Software Development Engineer II</h3>
+              <span class="place">Shopping Foundations, Amazon Retail</span>
               <span class="location">Bengaluru</span>
             </header>
             <div>
               <ul>
-                <li>Worked in Shopping Foundations Org in Amazon Retail which maintains Tier-1 services to provide aggregate product information across Detail, Checkout and Search pages.</li>
-                <li>Supported legacy systems during PrimeDay 2019, BlackFriday and CyberMonday. Scaled the services to handle site peak traffic during PD19 which saw 959k TPS and 185B requests served without any sev-2s or operational issues.</li>
-                <li>Developed services using various state-of-the-art AWS as well as legacy OnPrem technologies.</li>
-                <li>Built nodeJS library to support CloudAuth on Lambda.(OAuth2 based authentication system that enables cross-VPC service to service authentication)</li>
-                <li>KTLO support and deprecation of legacy systems</li>
+                <li>Owned Tier-1 services aggregating product information for the Detail, Checkout and Search pages; scaled them for Prime Day 2019 to a <b>959K TPS peak and 185B requests</b> with zero high-severity incidents.</li>
+                <li>Built a Node.js library bringing OAuth2 service-to-service authentication to AWS Lambda.</li>
               </ul>
-              </div>
+            </div>
           </div>
         </section>
         <section class="blocks">
           <div class="date">
-            <span>Feb<br>2019</span><span>Feb 2015</span>
+            <span>Feb 2019</span><span>Feb 2015</span>
           </div>
           <div class="decorator">
           </div>
           <div class="details">
             <header>
               <h3>Software Engineer II</h3>
-              <span class="place">Dynamic365, Microsoft</span>
+              <span class="place">Dynamics 365, Microsoft</span>
               <span class="location">Bengaluru</span>
             </header>
             <div>
               <ul>
-                <li>Designed, built, tested and deployed scalable, highly available and modular software products. Worked on multiple releases and developed various module/features in full stack development.</li>
-                <li>Worked with state-of-the art Azure services like CosmosDB, PowerBI.</li>
-                <li>Streamlined deployment process by developing continuous integration tools. Worked with Online Visual Studio(VSO) Tool to create and manage our project repo, building end to end CI/CD pipeline.</li>
-                <li>Built selenium test automation infra for the team.</li>
-                <li>Worked on performance tuning of MSSQL database which improved query efficiency by 80%.</li>
-                <li>Worked on improving telemetry system and providing GDPR support.</li>
+                <li>Full-stack development on Azure (CosmosDB, PowerBI); built the team's CI/CD pipelines and Selenium automation; tuned MSSQL for an 80% query-efficiency gain; delivered GDPR support.</li>
               </ul>
             </div>
           </div>
@@ -106,9 +117,7 @@
             </header>
             <div>
               <ul>
-                <li>Acted as network engineer with hands on experience in Kernel programming.</li>
-                <li>Worked on N5K/N6K switching Operating Systems development for Harbord and Illuka release.</li>
-                <li>Developed features for 3rd gen Fabric Integrator and Unified Computing Server.</li>
+                <li>Kernel-level development on the Nexus 5K/6K switching OS; features for 3rd-gen Fabric Interconnect and Unified Computing Server.</li>
               </ul>
             </div>
           </div>
@@ -127,11 +136,10 @@
           </div>
           <div class="details">
             <header>
-              <h3>Masters of Technology, Major in Computational Science</h3>
-              <span class="place">Indian Institute of Science <br>(CGPA: 6.8/8.0)</br></span>
+              <h3>Master of Technology, Computational Science</h3>
+              <span class="place">Indian Institute of Science (CGPA 6.8/8.0)</span>
               <span class="location">Bangalore</span>
             </header>
-            <div>Activities and societies: Competitive Programming, Conference paper on tunable ion trap.</div>
           </div>
         </section>
         <section class="blocks">
@@ -142,11 +150,10 @@
           </div>
           <div class="details">
             <header>
-              <h3>Bachelors of Technology, Major in Electronics and TeleCommunication</h3>
-              <span class="place">Jadavpur University <br>(CGPA: 8.95/10.0)</br></span>
+              <h3>Bachelor of Technology, Electronics and Telecommunication</h3>
+              <span class="place">Jadavpur University (CGPA 8.95/10.0)</span>
               <span class="location">Kolkata</span>
             </header>
-            <div>Activities and societies: C-Thru (Annual College Fest), Journal paper on Evolutionary computing.</div>
           </div>
         </section>
       </section>
@@ -169,43 +176,44 @@
           Skills
         </h1>
         <ul>
+          <li>Agentic AI / LLM Systems</li>
           <li>Distributed Systems</li>
-          <li>Algorithm</li>
+          <li>Event-driven Architecture</li>
+          <li>System Architecture</li>
           <li>AWS</li>
-          <li>ETL</li>
-          <li>Databases</li>
+          <li>ETL / Big Data</li>
+          <li>SOX / Financial Controls</li>
           <li>CI/CD</li>
-          <li>IaaS</li>
-          <li>Leadership</li>
+          <li>Technical Leadership</li>
           <li>Mentoring</li>
         </ul>
         <ul>
           <li>Java</li>
-          <li>Typescript</li>
+          <li>Python</li>
+          <li>TypeScript</li>
+          <li>Scala / Spark</li>
           <li>SQL</li>
-          <li>Spark</li>
-          <li>Scala</li>
-          <li>Spring</li>
-          <li>AngularJS</li>
-          <li>ReactJS</li>
-          <li>MySQL</li>
-          <li>DynamoDb</li>
+          <li>LangGraph</li>
+          <li>Strands / AgentCore</li>
+          <li>MCP</li>
+          <li>DynamoDB</li>
           <li>Elasticsearch</li>
           <li>Lambda</li>
+          <li>CDK</li>
         </ul>
       </div>
-      <div class="side-block" id="skills">
+      <div class="side-block" id="accolades">
         <h1>
           Accolades
         </h1>
         <ul>
-          <li>Winner, Experiment days in Amazon</li>
+          <li>Winner, Experiment Days, Amazon</li>
           <li>Microsoft Spot Award for Excellence</li>
-          <li>Winners, Robotics Race, IIT Kgp</li>
+          <li>Winner, Robotics Race, IIT Kharagpur</li>
         </ul>
       </div>
       <div class="side-block" id="disclaimer">
-        This resume was last updated in July 2023
+        This resume was last updated in November 2026
       </div>
     </aside>
   </body>
